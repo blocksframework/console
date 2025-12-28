@@ -1,0 +1,27 @@
+{
+    "name": "blocksframework/console",
+    "description": "A module providing console features for the Blocks PHP framework",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "console"
+    ],
+    "require": {
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^11.2",
+        "blocksframework/data": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Console\\": "src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
